@@ -1,0 +1,44 @@
+/* ======= Temas de color ======= */
+.theme-modern {
+  --primary: #005B96;
+  --secondary: #FFD23F;
+  --neutral: #F4F4F4;
+}
+
+.theme-elegant {
+  --primary: #2E294E;
+  --secondary: #E71D36;
+  --neutral: #FAFAFA;
+}
+
+.theme-fresh {
+  --primary: #008080;
+  --secondary: #FF7F50;
+  --neutral: #FDF6EC;
+}
+
+/* ======= Aplicación ======= */
+body {
+  background-color: var(--neutral);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar, .footer {
+  background-color: var(--primary);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  border: none;
+}
+
+.btn-secondary {
+  background-color: var(--secondary);
+  border: none;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
